@@ -5,6 +5,7 @@ let decrease = document.getElementById('decrement-btn')
 let save = document.getElementById('save')
 let entry = document.getElementById('entries')
 let error = document.getElementById('error')
+let reset = document.getElementById('reset')
 
 
 increase.addEventListener('click', ()=>{
@@ -35,6 +36,12 @@ save.addEventListener('click', ()=>{
     figure.innerHTML = 0
     count = 0
     
+})
+
+reset.addEventListener('click', ()=>{
+   figure.innerHTML = 0
+    count = 0
+    entry.innerHTML = 'Previous Entry : '
 })
 
 
