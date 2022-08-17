@@ -41,7 +41,7 @@ save.addEventListener('click', ()=>{
 reset.addEventListener('click', ()=>{
    figure.innerHTML = 0
     count = 0
-    entry.innerHTML = 'Previous Entry : '
+    entry.innerHTML = 'Previous Entries : &nbsp; '
 })
 
 
