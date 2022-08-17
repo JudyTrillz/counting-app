@@ -64,3 +64,11 @@ p{
 .show{
     display: none;
 }
+
+/* .open2{
+    display: none;
+} */
+
+.show2{
+    display: block;
+}
