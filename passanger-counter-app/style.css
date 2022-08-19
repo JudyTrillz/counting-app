@@ -54,7 +54,8 @@ button{
 }
 
 #reset{
-    color:black
+    color:black;
+    background-color: #fff;
 }
 
 p{
